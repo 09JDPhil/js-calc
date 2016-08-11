@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+body{
+  background:#777;
+  color:#333;
+  font-family: 'Orbitron', sans-serif;
+}
+.big-box{
+  background:#ccc;
+  border-radius:10px;
+  box-shadow:5px 10px 30px 5px #444;
+  font-size:2.2em;
+  height:410px;
+  width:290px;
+  margin-top: 5%;
+  text-align:center;
+}
+.window{
+  background:#adaa9f;
+  border:solid;
+  border-width:1px;
+  border-color:#888;
+  font-family: 'Orbitron', sans-serif;
+  font-size:1em;
+  margin:2% -3% 2% -2%;
+  text-align:right;
+  border-radius:10px;
+  width:275px
+}
+.small-number{
+  font-size:.5em;
+  color:#777;
+  margin:-5px 20px 0px 0px;
+}
+.btn{
+  text-align:center;
+  font-size:.7em;
+  color:#fff;
+  display:inline block;
+  position: relative;
+  border-radius:10px;
+  margin:0em -1.2em .35em -1.2em;
+  background:#333;
+  box-shadow: 0px 3px 0px 0px #202020;
+  width:60px;
+  height:50px;
+}
+.btn:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+  color:#fff;
+}
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited {
+  text-decoration: none !important;
+  outline: none !important;
+  color:#fff !important;
+}
+.button-red{
+  background:#b00000;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+.button-equals{
+  margin-top:-135%;
+  height:108px;
+}
+.button-wide{
+  width: 137px;
+}
+.temp{
+  background:#111;
+}
